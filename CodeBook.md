@@ -24,10 +24,10 @@ The computation is implemented in R script `run_analysis.R`.
 
 The resulting data is file `result.txt`.
 
-The resulting table contains the following variables:
+The resulting table contains for each for each group of (`subject`, `activity`) the mean value for following variables:
 
-- mean(): Mean value
-- std(): Standard deviation
+- `mean`: Mean value
+- `std`: Standard deviation
 
 for the following signals:
 ```
